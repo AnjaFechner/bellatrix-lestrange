@@ -35,4 +35,25 @@ y-Variable(yes, No)
 ![bild_2](bild_2.JPG)
 - we will check if the houeholdsize 8 and 9 (only 1 row) stays in the dataset. Because if we normalize/encode the features, the influence of the bothe rows withe the householdsize 8 and 9 have a big influence of the new interval.
 
-- Result of handling the outliers and household_size: The household_size is not a outliers. This amount stays in the datset after reove the outliers. Additionally to that, it is easier to remove the outliers from the columsn q1_balance to q4_balance that to remove the outliers only from the column average_column. So we have to drop the single row for houehold_size8.
+- Result of handling the outliers and household_size: The household_size is not a outliers. This amount stays in the datset after reove the outliers. Additionally to that, it is easier to remove the outliers from the columsn q1_balance to q4_balance that to remove the outliers only from the column average_column. So we have to drop the single row for houehold_size 8.
+
+
+## Day 2
+***
+
+***Tableau***
+***
+![bild_4](bild_4.JPG)
+We visualise our data and the result is, the balance has not a big impact of our target variable. But we will se how the model reachts on the balance-variable.
+
+***Python***
+****
+
+![bild_3](bild_3.JPG)
+
+The numerical variable at the positions 1 to 4 stays numerical. But we use this features as categrical in our dataset. We will see how big is the impact of the feature as numerical and as categorical.
+
+
+
+
+

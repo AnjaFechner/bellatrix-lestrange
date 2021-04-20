@@ -102,8 +102,8 @@ Group By Credit_Cards_Held;
 #and from Credit_Cards_Held 2 to 4 a negative correlation
 
 #Task 11: Your managers are only interested in the customers with the following properties:
-#Credit rating medium or high
 
+#Credit rating medium or high
 SELECT Customer_Number
 FROM credit_card_data
 WHERE Credit_Rating = "High" or  Credit_Rating = "Medium";
@@ -132,7 +132,8 @@ and
 Credit_Cards_Held <= 2
 and
 (Credit_Rating = "High" or  Credit_Rating = "Medium")
-and Offer_Accepted ="Yes";
+and 
+Offer_Accepted ="Yes";
 
 #Task 12 Your managers want to find out the list of customers whose average balance is less than the average balance of all the customers in the database. 
 # Write a query to show them the list of such customers. You might need to use a subquery for this problem.
@@ -153,9 +154,8 @@ Group By Offer_Accepted;
 
 #Task 15: Your managers are more interested in customers with a credit rating of high or medium. 
 # What is the difference in average balances of the customers with high credit card rating and low credit card rating?
-
-Select Credit_Rating, Average_Balance,
-avg(Average_Balance) over (Partition by Credit_Rating orderd) 
+##########################################################################################
+Select Credit_Rating, round(avg(Average_Balance),2) over (Partition by Credit_Rating) 
 FROM credit_card_data;
 
 #Task 16: In the database, which all types of communication (mailer_type) were used and with how many customers?
@@ -165,9 +165,9 @@ Group By Mailer_Type;
 
 #Task 17: Provide the details of the customer that is the 11th least Q1_balance in your database.
 
-Select *,
-dense_rank() OVER (Order By Q1_Balance DESC) as "Rank" 
-from credit_card_data
-Where "Rank" = 11;
-
+use credit_card_classification;
+Select * from (
+Select *, dense_rank() OVER (Order By Q1_Balance ASC) as "Rank" 
+from credit_card_data) a
+WHERE a.Rank = 11;
 
