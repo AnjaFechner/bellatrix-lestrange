@@ -56,9 +56,6 @@ The numerical variable at the positions 1 to 4 stays numerical. But we use this 
 
 ## Day 3
 ***
-Scatter_plot of the dataset
-![bild_6](bild_6.JPG)
-
 
 We try to improve our model.
 We try 5 different changes to achieve a better accuracy.
