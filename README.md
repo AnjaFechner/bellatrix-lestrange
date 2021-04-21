@@ -54,6 +54,13 @@ We visualise our data and the result is, the balance has not a big impact of our
 The numerical variable at the positions 1 to 4 stays numerical. But we use this features as categrical in our dataset. We will see how big is the impact of the feature as numerical and as categorical.
 
 
+## Day 3
+We try to improve our model.
+We try 5 different changes to achieve a better accuracy.
+
+The results are divided into different jupyter notebooks.
+![bild_5](bild_5.JPG)
+
 
 
 
