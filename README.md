@@ -41,7 +41,7 @@ We used Python to read the csv file, to explore the dataset and to visualize the
 ## Visualisation
 ***
 
-The graphs for exploring and evaluate the data set is published behind this [link](https://public.tableau.com/profile/anja.fechner#!/)
+The graphs for exploring and evaluate the data set is published behind the both links: [Link_1](https://public.tableau.com/profile/anja.fechner#!/) and [Link_2](https://public.tableau.com/profile/simon7288#!/)
 The Tableau [file](https://github.com/AnjaFechner/bellatrix-lestrange/tree/main/tableau) is saved in the Repo, too.
 
 
