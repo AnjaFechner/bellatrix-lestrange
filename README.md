@@ -22,6 +22,10 @@ The follwing features can be use to predict the important yes from the correct c
 ![features](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/features.jpg)
 
 ## Our model
+***
+![creditcards](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/tools.jpg)
+
+To find the correct customer we try the Machine Learning models Log. Regression and KNN.
 
 
 
