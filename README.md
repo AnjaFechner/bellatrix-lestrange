@@ -18,6 +18,7 @@ Project exploring the Data of 18000 customers, the analysis and visualisation of
 - [Statistical Analysis](#statistical-analysis)
 - [Review](#review)
 - [My SQL](#my-sql)
+- [OnePager](#OnePager)
 
 ## Introduction
 ***
@@ -64,16 +65,45 @@ The confusion matrix for the best model:
 The results of our improving steps are the following:
 ![table_of_results](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/table_of_results.JPG)
 
-Some interesting features of the datat set:
+Some interesting features of the data set:
 ![interesting_features](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/interesting_features.JPG)
+
+Our jupyter notebook files:
+
+*Version: With the column "average_balance":*
+
+- [Version 0](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/with_avg_balance__version_0.ipynb)
+- [Version 1](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/with_avg_balance__version_1.ipynb)
+- [Version 2](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/with_avg_balance__version_2.ipynb)
+- [Version 3](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/with_avg_balance__version_3.ipynb)
+- [Version 4](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/with_avg_balance__version_4.ipynb)
+
+
+*Version: Without the column "average_balance":*
+
+- [Version 0](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/without-balance-version_0.ipynb)
+- [Version 1](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/without-balance-version_1.ipynb)
+- [Version 2](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/without-balance-version_2.ipynb)
 
 
 ## Review
 ***
+
+- Went well
+We had a good overview and handling of the data in early stages (removing the average balance very early) and changing the datatype from numbers to categories.
+
+- Would do differently
+Probably not use machine learning to answer this type of business case. The data is too unbalanced and the data set too small. 
+An other approach will be to try the Decision Tree-Model.
 
 
 ## My SQL
 ***
 
 Our MySQL file is located in this [folder](https://github.com/AnjaFechner/bellatrix-lestrange/tree/main/mysql)
+
+## OnePager
+***
+
+Our OnePager is located in this [folder](https://github.com/AnjaFechner/bellatrix-lestrange/tree/main/onepager)
 
