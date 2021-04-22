@@ -1,33 +1,73 @@
-# bellatrix-lestrange
-##Worked out by
+# Bank Analysis - Why customers say yes or no to an offered credit card.
+## Worked out by
 ***
-Somin, Jalal anja Anja
+Simon, Jalal and Anja
 
-
-## The bank-case
+### *April 2021*
 ***
 ![creditcards](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/creditcards.jpg)
 
 
-## What was happened and what is the aim.
+Project exploring the Data of 18000 customers, the analysis and visualisation of them.
+
+## Content
 ***
+
+- [Introduction](#introduction)
+- [The Data](#the-data)
+- [Visualisation](#visualisation)
+- [Statistical Analysis](#statistical-analysis)
+- [Review](#review)
+
+
+## Introduction
+***
+
+A highstreet bank has called in a wizard team of data analysts to help them analyse their credit marketing campaign. 
+They want to understand which types of customers respond positively to the campaign and what kind of marketing is most successful.
+We received the data set of 18000 records from the prevois campaign. This included information about account details over a year, 
+demographic and customer segments as well as inforamtion about what type of campaign each customer received.
+
+## The Data 
+***
+![tools](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/tools.jpg)
+
+Our set consits of 18000 dates about customers, who accept or reject a credit card offer from the bank. 
+We used Python to read the csv-file, to explore the dataset und to visualize the data. Next to this tool, we used Tableau and MySQL, too.
+
+## The Visualization
+***
+
+The graphs for explore and evaluate the data set is published behind this [link](https://public.tableau.com/profile/anja.fechner#!/)
+The Tableau [file)( is saved in the Reppo, too.
+
+
+
+## Statistical Analysis 
+***
+
+We explore the data set that is marked by hughe imbalance between the customer who said 'Yes' and 'No'.
+The data set consist of 15 features to analyse what determining factors in peples' liklihood of saying 'Yes' or 'No'.
+The features (our x-variables) are following plottet. Our target variable is the credit card offer ('Yes'/'No') .
+
 ![target](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/target.jpg)
-In the past, the bank started a marketing offensive. The bank offered his customers new credit-cards. Bute unfortunatley the response was not that what the initiastors expected. The management of the bank decided to start a second markeing campaign to offer this credit card. Becaause the credit-card are an importan business field for the bank. Of course, the bank management want to make sure that this campaignb will be succesfull. Now we need a machine learning model to predict the right Yes to the offer (new credit card).
 
-## The features
+We try to predict our target variable with the Logistic Regression and the KNN Model as a Machine Learning Algoritmen.
+But the hughe imbalance in the dataset prevent the best solution. 
+
+![imbalance](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/imbalance.jpg)
+
+We found out that the average balance is not an important factor for predicting the target variable. 
+The other features shows an impact of the decision from the customer to say "Yes" to the credit card offer, but the data set is not big enough to find the best combinations.
+We try to imrpove the Sampling with Smote. This works for the KNN-model. Please see for this the jupyter notebook file with
+
+
+## Review
 ***
 
-The follwing features can be use to predict the important yes from the correct customers.
 
-![features](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/features.jpg)
+## My SQL
+##
 
-## Our model
-***
-![creditcards](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/tools.jpg)
-
-To find the correct customer we try the Machine Learning models Log. Regression and KNN.
-
-
-
-
+Our MySQL file is located in this [folder](https://github.com/AnjaFechner/bellatrix-lestrange/tree/main/mysql)
 
