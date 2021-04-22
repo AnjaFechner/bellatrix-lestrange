@@ -1,5 +1,5 @@
 # Bank Analysis - Why customers accept and decline the credit card offer.
-## Mit Bootcamp Project
+## Mid Bootcamp Project
 *Simon Goodall, Jalal Karimov and Anja Fechner*
 
 ### *April 2021*
