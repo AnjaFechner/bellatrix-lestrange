@@ -65,7 +65,7 @@ The results of our improving steps are the following:
 ![table_of_results](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/table_of_results.JPG)
 
 Some interesting features of the datat set:
-
+![interesting_features](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/interesting_features.JPG)
 
 
 ## Review
