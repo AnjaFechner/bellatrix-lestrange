@@ -63,6 +63,8 @@ The results of our improving steps are the following:
 ![table_of_results](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/table_of_results.JPG)
 
 The confusion matrix for the best model:
+
+
 ![Confusion%20matrix](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/Confusion%20matrix.JPG)
 
 Some interesting features of the data set:
