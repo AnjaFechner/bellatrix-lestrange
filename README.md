@@ -72,7 +72,7 @@ Some interesting features of the data set:
 
 Our jupyter notebook files:
 
-*Version: With the column "average_balance":*
+*Version: With the column "Average Balance":*
 
 - [Version 0](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/with_avg_balance__version_0.ipynb)
 - [Version 1](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/with_avg_balance__version_1.ipynb)
@@ -81,11 +81,11 @@ Our jupyter notebook files:
 - [Version 4](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/with_avg_balance__version_4.ipynb)
 
 
-*Version: Without the column "average_balance":*
+*Version: Without the column "Average Balance":*
 
 - [Version 0](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/without-balance-version_0.ipynb)
 - [Version 1](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/without-balance-version_1.ipynb)
-- [Version 2](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/without-balance-version_2.ipynb)
+- [Version 2](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/jupyter_notebook/without-balance-version_2.ipynb): That is our best version.
 
 
 ## Review
