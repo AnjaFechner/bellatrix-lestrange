@@ -1,6 +1,6 @@
-# Bank Analysis - Why customers say "Yes"or "No"to the offered credit card.
-## Worked out by
-*Simon, Jalal and Anja*
+# Bank Analysis - Why customers accept and decline the credit card offer.
+## Mit Bootcamp Project
+*Simon Goodall, Jalal Karimov and Anja Fechner*
 
 ### *April 2021*
 ***
@@ -25,45 +25,45 @@ Project exploring the Data of 18000 customers, the analysis and visualisation of
 
 A highstreet bank has called in a wizard team of data analysts to help them analyse their credit marketing campaign. 
 They want to understand which types of customers respond positively to the campaign and what kind of marketing is most successful.
-We received the data set of 18000 records from the prevois campaign. This included information about account details over a year, 
-demographic and customer segments as well as inforamtion about what type of campaign each customer received.
+We received the data set of 18000 records from the previous campaign. This included information about account details over a year, 
+demographic and customer segments as well as information about what type of campaign each customer received.
 
 
 ## The Data 
 ***
 ![tools](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/tools.jpg)
 
-Our set consits of 18000 dates about customers, who accept or reject a credit card offer from the bank. 
-We used Python to read the csv-file, to explore the dataset und to visualize the data. Next to this tool, we used Tableau and MySQL, too.
+Our set consists of 18000 dates about customers, who accept or reject a credit card offer from the bank. 
+We used Python to read the csv file, to explore the dataset and to visualize the data. Next to this tool, we used Tableau and MySQL, too.
 
 
 ## Visualisation
 ***
 
-The graphs for explore and evaluate the data set is published behind this [link](https://public.tableau.com/profile/anja.fechner#!/)
-The Tableau [file](https://github.com/AnjaFechner/bellatrix-lestrange/tree/main/tableau) is saved in the Reppo, too.
+The graphs for exploring and evaluate the data set is published behind this [link](https://public.tableau.com/profile/anja.fechner#!/)
+The Tableau [file](https://github.com/AnjaFechner/bellatrix-lestrange/tree/main/tableau) is saved in the Repo, too.
 
 
 ## Statistical Analysis 
 ***
 
-We explore the data set that is marked by hughe imbalance between the customer who said 'Yes' and 'No'.
-The data set consist of 15 features to analyse what determining factors in peples' liklihood of saying 'Yes' or 'No'.
-The features (our x-variables) are following plottet. Our target variable is the credit card offer ('Yes'/'No') .
-We try to predict our target variable with the Logistic Regression and the KNN Model as a Machine Learning Algoritmen.
-But the hughe imbalance in the dataset prevent the best solution. 
+We explore the data set that is marked by huge imbalance between the customer who accepted and declined the credit card offer.
+The data set consists of 15 features to analyze what determining factors in peoples' likelihood of saying 'Yes' or 'No'.
+The features (our x-variables) are the following plottet. Our target variable is the credit card offer ('Yes'/'No').
+We try to predict our target variable with the Logistic Regression and the KNN as Machine Learning Models.
+But the huge imbalance in the data set prevents the best solution. 
 
 ![imbalance](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/imbalance.JPG)
 
-We found out that the average balance is not an important factor for predicting the target variable. 
-The other features shows an impact of the decision from the customer to say "Yes" to the credit card offer, but the data set is not big enough to find the best combinations.
-We try to imrpove the Sampling with Smote. This works for the KNN-model. Please see for this the jupyter notebook file with
-
-The confusion matrix for the best model:
-![Confusion%20matrix](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/Confusion%20matrix.JPG)
+At first, we dropped the columns Q1 Balance to Q4 Balance, because in the data set there is also the column Average Balance. And we decide  We found out that the average balance is not an important factor for predicting the target variable. 
+The other features show an impact of the decision from the customer to say "Yes" to the credit card offer, but the data set is not big enough and because of the huge imbalance it was not to find the best feature combinations.
+But we try our best and used SMOTE. 
 
 The results of our improving steps are the following:
 ![table_of_results](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/table_of_results.JPG)
+
+The confusion matrix for the best model:
+![Confusion%20matrix](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/Confusion%20matrix.JPG)
 
 Some interesting features of the data set:
 ![interesting_features](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/interesting_features.JPG)
@@ -89,21 +89,21 @@ Our jupyter notebook files:
 ## Review
 ***
 
-- Went well
-We had a good overview and handling of the data in early stages (removing the average balance very early) and changing the datatype from numbers to categories.
+- Went well:
+We had a good overview and handling of the data in the early stages (removing the average balance very early) and changing the data type from numbers to categories.
 
-- Would do differently
+- Would do differently:
 Probably not use machine learning to answer this type of business case. The data is too unbalanced and the data set too small. 
-An other approach will be to try the Decision Tree-Model.
+Another approach will be to try the Decision-Tree-Model.
 
 
 ## My SQL
 ***
 
-Our MySQL file is located in this [folder](https://github.com/AnjaFechner/bellatrix-lestrange/tree/main/mysql)
+Our MySQL file is located in this [folder](https://github.com/AnjaFechner/bellatrix-lestrange/tree/main/mysql).
 
 ## OnePager
 ***
 
-Our OnePager is located in this [folder](https://github.com/AnjaFechner/bellatrix-lestrange/tree/main/onepager)
+Our OnePager is located in this [folder](https://github.com/AnjaFechner/bellatrix-lestrange/tree/main/onepager).
 
