@@ -18,7 +18,8 @@ Project exploring the Data of 18000 customers, the analysis and visualisation of
 - [Statistical Analysis](#statistical-analysis)
 - [Review](#review)
 - [My SQL](#my-sql)
-- [OnePager](#OnePager)
+- [OnePager](#onepager)
+- [Presentation](#presentation)
 
 ## Introduction
 ***
@@ -96,7 +97,8 @@ We had a good overview and handling of the data in the early stages (removing th
 
 - Would do differently:
 Probably not use machine learning to answer this type of business case. The data is too unbalanced and the data set too small. 
-Another approach will be to try the Decision-Tree-Model.
+Another approach will be to try the Decision-Tree-Model. Next time we would complete the visualisation in Tableau first, before attempting Machine Learning. And finally, trust the data and the graphs.
+
 
 
 ## My SQL
@@ -109,3 +111,8 @@ Our MySQL file is located in this [folder](https://github.com/AnjaFechner/bellat
 
 Our OnePager is located in this [folder](https://github.com/AnjaFechner/bellatrix-lestrange/tree/main/onepager).
 
+
+## Presentation
+***
+
+Our presentation is located in this [folder](https://github.com/AnjaFechner/bellatrix-lestrange/tree/main/presentation).
