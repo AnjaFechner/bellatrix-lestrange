@@ -17,7 +17,7 @@ Project exploring the Data of 18000 customers, the analysis and visualisation of
 - [Visualisation](#visualisation)
 - [Statistical Analysis](#statistical-analysis)
 - [Review](#review)
-
+- [My SQL](#my-sql)
 
 ## Introduction
 ***
@@ -30,7 +30,7 @@ demographic and customer segments as well as inforamtion about what type of camp
 
 ## The Data 
 ***
-![tools](https://http://localhost:8888/view/Desktop/bellatrix-lestrange/pictures/tools.JPG)
+![tools](https://github.com/AnjaFechner/bellatrix-lestrange/blob/main/pictures/tools.jpg)
 
 Our set consits of 18000 dates about customers, who accept or reject a credit card offer from the bank. 
 We used Python to read the csv-file, to explore the dataset und to visualize the data. Next to this tool, we used Tableau and MySQL, too.
