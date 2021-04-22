@@ -154,9 +154,8 @@ Group By Offer_Accepted;
 
 #Task 15: Your managers are more interested in customers with a credit rating of high or medium. 
 # What is the difference in average balances of the customers with high credit card rating and low credit card rating?
-##########################################################################################
-Select Credit_Rating, round(avg(Average_Balance),2) over (Partition by Credit_Rating) 
-FROM credit_card_data;
+
+SELECT (SELECT Round(AVG(Average_Balance),2) as avg_bal1 From credit_card_data Where Credit_Rating = "High") - (SELECT Round(AVG(Average_Balance),2) From credit_card_data Where Credit_Rating = "Low") as Difference;
 
 #Task 16: In the database, which all types of communication (mailer_type) were used and with how many customers?
 
